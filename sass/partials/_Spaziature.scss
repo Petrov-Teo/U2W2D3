@@ -7,12 +7,23 @@ $size-3: 1rem;
 $size-4: 1.5rem;
 $size-5: 3rem;
 
-$dw100-width: 100%;
-$dw75-width: 75%;
-$dw50-width: 50%;
-$dw25-width: 25%;
+$W100: 100%;
+$W75: 75%;
+$W50: 50%;
+$W25: 25%;
 
-$dh100-height: 100%;
-$dh75-height: 75%;
-$dh50-height: 50%;
-$dh25-height: 25%;
+$H: 100%;
+$H: 75%;
+$H: 50%;
+$h: 25%;
+
+@for $i from 1 through 10 {
+  .custom-ps-#{$i} {
+    padding-inline-start: calc($i * 5px);
+  }
+}
+@for $i from 1 through 20 {
+  .width:-ps-#{$i} {
+    width: calc($i * 5px);
+  }
+}

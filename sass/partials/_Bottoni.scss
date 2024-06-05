@@ -1,0 +1,11 @@
+$Btn1-color: #0e6cff;
+$Btn2-color: #ff8700;
+$Btn3-color: #4caf50;
+
+@mixin Btn1() {
+  size: 200px;
+  padding: $size-1;
+  background-color: $Btn1-color;
+  text-align: center;
+  color: whitesmoke;
+}

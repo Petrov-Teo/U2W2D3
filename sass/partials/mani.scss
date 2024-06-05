@@ -1,0 +1,72 @@
+@import "./Reset";
+@import "./Spaziature";
+@import "./Fonts";
+@import "./Colori";
+@import "./Bottoni";
+@import "./Mixins_Generici";
+@import "./Animazioni";
+@import "./Variabili";
+
+body {
+  nav {
+    border: 3px solid;
+    border-radius: 25px;
+    position: sticky;
+    .div1 {
+      div {
+        text-align: center;
+        .imgLogo {
+          width: 50px;
+        }
+        padding-top: 15px;
+        .navB {
+          width: 10%;
+          border-radius: 10px;
+          border: 3px solid;
+          background-color: wheat;
+          & :hover {
+            background-color: $hero-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.h1TitoloMain {
+  @include title_h1;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.hero {
+  background-color: $hero-color;
+}
+
+.divCard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  font-family: $f_family;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  text-align: center;
+  padding-bottom: $size-4;
+}
+
+.imgCard {
+  width: 100%;
+  object-fit: cover;
+  padding: $size-2;
+  padding-bottom: $size-4;
+}

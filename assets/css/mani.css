@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding-inline-start: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.custom-ps-1 {
+  padding-inline-start: 5px;
+}
+
+.custom-ps-2 {
+  padding-inline-start: 10px;
+}
+
+.custom-ps-3 {
+  padding-inline-start: 15px;
+}
+
+.custom-ps-4 {
+  padding-inline-start: 20px;
+}
+
+.custom-ps-5 {
+  padding-inline-start: 25px;
+}
+
+.custom-ps-6 {
+  padding-inline-start: 30px;
+}
+
+.custom-ps-7 {
+  padding-inline-start: 35px;
+}
+
+.custom-ps-8 {
+  padding-inline-start: 40px;
+}
+
+.custom-ps-9 {
+  padding-inline-start: 45px;
+}
+
+.custom-ps-10 {
+  padding-inline-start: 50px;
+}
+
+.width:-ps-1 {
+  width: 5px;
+}
+
+.width:-ps-2 {
+  width: 10px;
+}
+
+.width:-ps-3 {
+  width: 15px;
+}
+
+.width:-ps-4 {
+  width: 20px;
+}
+
+.width:-ps-5 {
+  width: 25px;
+}
+
+.width:-ps-6 {
+  width: 30px;
+}
+
+.width:-ps-7 {
+  width: 35px;
+}
+
+.width:-ps-8 {
+  width: 40px;
+}
+
+.width:-ps-9 {
+  width: 45px;
+}
+
+.width:-ps-10 {
+  width: 50px;
+}
+
+.width:-ps-11 {
+  width: 55px;
+}
+
+.width:-ps-12 {
+  width: 60px;
+}
+
+.width:-ps-13 {
+  width: 65px;
+}
+
+.width:-ps-14 {
+  width: 70px;
+}
+
+.width:-ps-15 {
+  width: 75px;
+}
+
+.width:-ps-16 {
+  width: 80px;
+}
+
+.width:-ps-17 {
+  width: 85px;
+}
+
+.width:-ps-18 {
+  width: 90px;
+}
+
+.width:-ps-19 {
+  width: 95px;
+}
+
+.width:-ps-20 {
+  width: 100px;
+}
+
+body nav {
+  border: 3px solid;
+  border-radius: 25px;
+  position: sticky;
+}
+body nav .div1 div {
+  text-align: center;
+  padding-top: 15px;
+}
+body nav .div1 div .imgLogo {
+  width: 50px;
+}
+body nav .div1 div .navB {
+  width: 10%;
+  border-radius: 10px;
+  border: 3px solid;
+  background-color: wheat;
+}
+body nav .div1 div .navB :hover {
+  background-color: #640fc5;
+}
+
+.h1TitoloMain {
+  font-size: 30px;
+  color: #f4f4f4;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.hero {
+  background-color: #640fc5;
+}
+
+.divCard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.imgCard {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0.5rem;
+  padding-bottom: 1.5rem;
+}/*# sourceMappingURL=mani.css.map */

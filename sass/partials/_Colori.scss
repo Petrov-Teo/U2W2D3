@@ -1,5 +1,6 @@
-$bg_hero-background-color: #640fc5;
-$text_col-color: #f4f4f4;
-$Btn1-color: #0e6cff;
-$Btn2-color: #ff8700;
-$Btn3-color: #4caf50;
+$hero-color: #640fc5;
+$text_color: #f4f4f4;
+
+@mixin scaleColor($hero-color) {
+  color: scale-color($color, $lightness: -70%);
+}
