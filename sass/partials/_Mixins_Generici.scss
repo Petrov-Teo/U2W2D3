@@ -1,0 +1,12 @@
+@mixin title_h1($size-2, $color, $backgraound) {
+  text-align: center;
+  font-size: $size-2;
+  color: $color;
+  background-color: $backgraound;
+}
+
+@mixin Displey_inLine($width, $Allineamento: left) {
+  display: inline;
+  width: $width;
+  text-align: left;
+}
